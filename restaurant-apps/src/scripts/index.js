@@ -3,5 +3,7 @@ import '../styles/main.css';
 import '../styles/responsive.css';
 
 import downMenu from './downMenu.js';
+import main from './main.js';
 
 downMenu();
+main();

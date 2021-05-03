@@ -7,4 +7,4 @@ function downMenu() {
     }
 }
 window.downMenu = downMenu;
-export default downMenu();
+export default downMenu;

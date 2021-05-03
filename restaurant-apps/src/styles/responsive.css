@@ -1,6 +1,10 @@
 /* Mobile */
 @media only screen and (max-width: 400px) {
 
+    html,body{
+        overflow-x:hidden;
+    }
+
     .container{
         margin-left: 1pc;
         margin-right: 1pc;
@@ -19,6 +23,16 @@
         width: 100%;
         padding: 30px 0 15px;
         margin-bottom:0.5pc;
+    }
+
+    .topnav .nav-home{
+        color:#fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14pt;
+        float:left;
+        margin-top:-23px;
+        padding-bottom: 27px;
     }
 
     .topnav ul{
@@ -46,11 +60,50 @@
         position: static;
     }
     
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .col-6{
+        flex: 0 1 calc(100% - 5px);
+        margin-bottom: 2px;
+        padding:0px;
+        clear: both;
+        margin-top: 1pc;
+    }
+
+    .col-4{
+        flex: 0 1 calc(100% - 5px);
+        margin-bottom: 2px;
+        padding:0px;
+        clear: both;
+        margin-top: 1pc;
+    }
+    
+    .hero-banner{
+        padding: 8pc 0 4pc 0;
+        color:#fff;
+        background-color: #bb654d;
+        height: 500px;
+        width: 100%;
+    }
+
+    .hero-text{
+        margin:2pc 0 3pc 0;
+    }
+
 }
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    
+
+    html,body{
+        overflow-x:hidden;
+        max-width: 100%;
+    }
+
     .container{
         margin-left: 1pc;
         margin-right: 1pc;
@@ -71,6 +124,16 @@
         margin-bottom:0.5pc;
     }
 
+    .topnav .nav-home{
+        color:#fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14pt;
+        float:left;
+        margin-top:-23px;
+        padding-bottom: 27px;
+    }
+    
     .topnav ul{
         display: none;
     }
@@ -95,6 +158,41 @@
     .nav-dropdown {
         position: static;
     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .col-6{
+        flex: 0 1 calc(100% - 5px);
+        margin-bottom: 2px;
+        padding:0px;
+        clear: both;
+        margin-top: 1pc;
+    }
+
+    .col-4{
+        flex: 0 1 calc(100% - 5px);
+        margin-bottom: 2px;
+        padding:0px;
+        clear: both;
+        margin-top: 1pc;
+    }
+    
+    .hero-banner{
+        padding: 8pc 0 4pc 0;
+        color:#fff;
+        background-color: #bb654d;
+        min-height: 600px;
+        width: 100%;
+    }
+
+    .hero-text{
+        margin:2pc 0 3pc 0;
+    }
+
 }
 
 /* Desktop  */
