@@ -1,0 +1,186 @@
+* {
+    margin:0; padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-left: 5pc;
+    margin-right: 5pc;
+}
+
+.container-fluid{
+    margin-left :1pc;
+    margin-right: 1pc;
+}
+
+/* button */
+
+.btn-blue{
+    margin-top:0.5pc;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    width:auto;
+    font-size:18px;
+    background: #0e88bd;
+    color:#fff;
+    border:0px;
+    border-radius:5px 5px 5px 5px ;
+}
+
+/* button */
+/* pull left right */
+
+.pull-kiri{
+    float:left;
+}
+
+.pull-kanan{
+    float:right;
+}
+
+.pull_center{
+    text-align:center;
+}
+
+/* pull left right */
+/* clear both */
+
+.clearfix{
+    clear:both;
+}
+
+/* clear both */
+
+/* col */
+
+.col_6{
+    width:50%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+.col_4{
+    width:33.33%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+/* col */
+
+/* menu header */
+
+.navigasi{
+    background:#087292;
+    position:fixed;
+    width:100%;
+    z-index:9999;
+}
+
+.topnav {
+    padding-top:3px;
+    padding-bottom: 3px;
+} 
+
+.topnav ul {
+    margin:0;
+    padding: 0 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+.topnav ul li{
+    float:left;
+}
+
+.topnav ul li:hover{
+    background:#138fb4;
+}
+
+.topnav ul li:hover a{
+    color:#fff;
+}
+
+.topnav ul li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #262626;
+    height: 70px;
+    width: 70px;
+}
+
+#nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+
+#nav-toggle span:before {
+    top: -10px;
+}
+
+#nav-toggle span:after {
+    bottom: -10px;
+}
+
+#nav-toggle.active span {
+    background-color: transparent;
+}
+
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+}
+
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+
+/* menu header */
