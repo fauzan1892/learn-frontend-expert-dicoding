@@ -15,6 +15,10 @@
         margin-right: 0.5pc;
     }
 
+    #img-blog{
+        height: 100%;
+    }
+
     .nav-mobile {
         display: block;
     }
@@ -22,7 +26,7 @@
     .topnav {
         width: 100%;
         padding: 30px 0 15px;
-        margin-bottom:0.5pc;
+        margin-bottom:0.2pc;
     }
 
     .topnav .nav-home{
@@ -30,9 +34,8 @@
         text-decoration: none;
         font-weight: 700;
         font-size: 14pt;
-        float:left;
-        margin-top:-23px;
-        padding-bottom: 27px;
+        margin-top:-20px;
+        padding-bottom: 0px;
     }
 
     .topnav ul{
@@ -46,7 +49,6 @@
     }
 
     .topnav.responsive ul li {
-        float: left;
         padding:10px;
         width: 100%;
     }
@@ -83,11 +85,13 @@
     }
     
     .hero-banner{
-        padding: 8pc 0 4pc 0;
         color:#fff;
-        background-color: #bb654d;
-        height: 500px;
         width: 100%;
+    }
+    
+    .hero-cover{
+        color:#fff;
+        background: rgba(0, 0, 0, 0.6);
     }
 
     .hero-text{
@@ -114,6 +118,10 @@
         margin-right: 0.5pc;
     }
     
+    #img-blog{
+        height: 100%;
+    }
+
     .nav-mobile {
         display: block;
     }
@@ -121,7 +129,7 @@
     .topnav {
         width: 100%;
         padding: 30px 0 15px;
-        margin-bottom:0.5pc;
+        margin-bottom:0.2pc;
     }
 
     .topnav .nav-home{
@@ -129,9 +137,8 @@
         text-decoration: none;
         font-weight: 700;
         font-size: 14pt;
-        float:left;
-        margin-top:-23px;
-        padding-bottom: 27px;
+        margin-top:-20px;
+        padding-bottom: 0px;
     }
     
     .topnav ul{
@@ -145,7 +152,6 @@
     }
 
     .topnav.responsive ul li {
-        float: left;
         padding:10px;
         width: 100%;
     }
@@ -182,11 +188,13 @@
     }
     
     .hero-banner{
-        padding: 8pc 0 4pc 0;
         color:#fff;
-        background-color: #bb654d;
-        min-height: 600px;
         width: 100%;
+    }
+    
+    .hero-cover{
+        color:#fff;
+        background: rgba(0, 0, 0, 0.6);
     }
 
     .hero-text{
