@@ -6,37 +6,29 @@
         <title>Restaurant Apps Starter Project</title>
     </head>
     <body>
-        <a href="#maincontent" class="skip-link">Skip to Content</a>
-        <!-- menu navigasi -->
-        <div class="navigasi">
-            <div class="container">
-                <div class="topnav" id="myTopnav">
-                    <div class="row">
-                        <div class="col">
-                            <a href="index.html" class="nav-home">Kulineran Yuk !</a>
-                        </div>
-                        <div class="col">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Favorit</a></li>
-                                <li><a href="https://github.com/fauzan1892">About Us</a></li>
-                            </ul>
-                        </div>
+        <header>
+            <a href="#explore" class="skip-link">Skip to Content</a>
+            <!-- menu navigasi -->
+            <div class="navigasi">
+                <div class="container">
+                    <div class="nav-mobile">
+                        <button onclick="downMenu()" id="nav-toggle"><span></span></button>
+                    </div>
+                    <div class="topnav" id="myTopnav">
+                        <a href="index.html" class="nav-home">Kulineran Yuk !</a>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Favorit</a></li>
+                            <li><a href="https://github.com/fauzan1892">About Us</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="nav-mobile">
-                    <a  href="javascript:void(0);" onclick="downMenu()" id="nav-toggle"><span></span></a>
-                </div>
             </div>
-        </div>
+        </header>
         <!-- menu navigasi -->
         <div class="clearfix"></div>
-        <!-- main content -->
-        <!-- skip to content -->
-        <div id="maincontent"></div>
-        <!-- skip to content -->
         <!-- hero banner-->
-        <div class="hero-banner" style="background: url('images/heros/hero-image_4.jpg') fixed no-repeat center; background-size: 100% 100%;">
+        <div class="hero-banner" style="background: url('images/heros/hero-image_4.jpg') fixed no-repeat center; background-size: cover;">
             <div class="hero-cover">
                 <div class="container">
                     <div class="hero-text">
@@ -53,66 +45,71 @@
             </div>
         </div>
         <!-- hero banner -->
-        <!-- promosi -->
-        <div class="promosi">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6"> 
-                        <a href="#topromosi" class="topromosi">
-                            <div class="card bg-blue">
-                                <div class="card-body">
-                                    <p>Cari Restoran ?</p>
-                                    <br>
-                                    <h2>
-                                        Yuk Kita Cari Kulineran
+        <!-- main content -->
+        <main>
+            <!-- promosi -->
+            <div class="promosi">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6"> 
+                            <a href="#topromosi" class="topromosi">
+                                <div class="card bg-blue">
+                                    <div class="card-body">
+                                        <p>Cari Restoran ?</p>
                                         <br>
-                                        dengan Restoran terdekat mu !
-                                    </h2>
-                                    <br>
-                                    <p>Lihat restoran terdekat</p>
+                                        <h2>
+                                            Yuk Kita Cari Kulineran
+                                            <br>
+                                            dengan Restoran terdekat mu !
+                                        </h2>
+                                        <br>
+                                        <p>Lihat restoran terdekat</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6"> 
-                        <a href="#topromosi" class="topromosi">
-                            <div class="card bg-success">
-                                <div class="card-body">
-                                    <p>Tidak pakai antri !</p>
-                                    <br>
-                                    <h2>
-                                        Nikmati makanan
+                            </a>
+                        </div>
+                        <div class="col-6"> 
+                            <a href="#topromosi" class="topromosi">
+                                <div class="card bg-success">
+                                    <div class="card-body">
+                                        <p>Tidak pakai antri !</p>
                                         <br>
-                                        lezat dirumah !
+                                        <h2>
+                                            Nikmati makanan
+                                            <br>
+                                            lezat dirumah !
+                                            <br>
+                                        </h2>
                                         <br>
-                                    </h2>
-                                    <br>
-                                    <p>Lihat restoran dengan layanan pengantaran makanan</p>
+                                        <p>Lihat restoran dengan layanan pengantaran makanan</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- promosi -->
-        <!-- explorer -->
-        <div class="explore">
-            <div class="container">
-                <h2 class="text-center">Explore Restaurant</h2>
-                <br>
-                <div class="clearfix"></div>
-                <div id="explore-restaurants"></div>
+            <!-- promosi -->
+            <!-- explorer -->
+            <div class="explore">
+                <div class="container">
+                    <h2 class="text-center" id="explore">Explore Restaurant</h2>
+                    <br>
+                    <div class="clearfix"></div>
+                    <div id="explore-restaurants"></div>
+                </div>
             </div>
-        </div>
         <!-- explorer -->
+        </main>
         <!-- main content -->
         <!-- footer -->
-        <div class="footer">
-            <div class="container">
-                <p>Copyright &copy; 2021 - <a href="#" class="afooter">Kulineran Yuk ! Apps </a> </p>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <p>Copyright &copy; 2021 - Kulineran Yuk ! Apps </p>
+                </div>
             </div>
-        </div>
+        </footer>
         <!-- footer -->
     </body>
 </html>

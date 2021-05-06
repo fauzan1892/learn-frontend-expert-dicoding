@@ -1,5 +1,5 @@
 /* Mobile */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 
     html,body{
         overflow-x:hidden;
@@ -25,8 +25,8 @@
 
     .topnav {
         width: 100%;
-        padding: 30px 0 15px;
-        margin-bottom:0.2pc;
+        padding: 24px 0 24px;
+        display: block;
     }
 
     .topnav .nav-home{
@@ -34,18 +34,19 @@
         text-decoration: none;
         font-weight: 700;
         font-size: 14pt;
-        margin-top:-20px;
-        padding-bottom: 0px;
     }
-
+    
     .topnav ul{
         display: none;
     }
 
     .topnav.responsive ul {
+        margin-top:14px;
+        list-style: none;
+        position: relative;
         display: block;
-        margin-top: 25px;
-        width: 100%;
+        margin-left: auto;
+        margin-right: 1.3pc;
     }
 
     .topnav.responsive ul li {
@@ -56,6 +57,7 @@
     .topnav.responsive ul li a {
         padding: 15px;
         line-height: 20px;
+        text-align: left;
     }
 
     .nav-dropdown {
@@ -101,7 +103,7 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
 
     html,body{
         overflow-x:hidden;
@@ -128,8 +130,8 @@
 
     .topnav {
         width: 100%;
-        padding: 30px 0 15px;
-        margin-bottom:0.2pc;
+        padding: 24px 0 24px;
+        display: block;
     }
 
     .topnav .nav-home{
@@ -137,8 +139,6 @@
         text-decoration: none;
         font-weight: 700;
         font-size: 14pt;
-        margin-top:-20px;
-        padding-bottom: 0px;
     }
     
     .topnav ul{
@@ -146,9 +146,12 @@
     }
 
     .topnav.responsive ul {
+        margin-top:14px;
+        list-style: none;
+        position: relative;
         display: block;
-        margin-top: 25px;
-        width: 100%;
+        margin-left: auto;
+        margin-right: 1.3pc;
     }
 
     .topnav.responsive ul li {
@@ -159,6 +162,7 @@
     .topnav.responsive ul li a {
         padding: 15px;
         line-height: 20px;
+        text-align: left;
     }
 
     .nav-dropdown {
@@ -172,7 +176,7 @@
     }
     
     .col-6{
-        flex: 0 1 calc(100% - 5px);
+        flex: 0 1 calc(50% - 5px);
         margin-bottom: 2px;
         padding:0px;
         clear: both;
@@ -180,7 +184,7 @@
     }
 
     .col-4{
-        flex: 0 1 calc(100% - 5px);
+        flex: 0 1 calc(50% - 5px);
         margin-bottom: 2px;
         padding:0px;
         clear: both;
@@ -198,9 +202,8 @@
     }
 
     .hero-text{
-        margin:2pc 0 3pc 0;
+        margin:2pc 0 2pc 0;
     }
-
 }
 
 /* Desktop  */
